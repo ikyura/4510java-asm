@@ -1,0 +1,15 @@
+public class TestCase{
+    public static void main(String []args){
+        String name;
+        int birthdate;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is your name?);
+        name = sc.next();
+
+        System.out.println("What is your birthdate?);
+        birthdate = sc.nextInt();
+        
+        System.out.println("Your name is " + name + "Your birthdate is " + birthday);
+    }
+}
